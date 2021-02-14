@@ -1,0 +1,293 @@
+.mainbody {
+    background-image:url(https://coolbackgrounds.io/images/backgrounds/index/aqua-d9b59c89.png);
+    image-rendering: pixelated;
+    margin-right: 100px;
+}
+
+.p {
+    position: relative;
+    font-size: larger;
+    font-weight: bolder;
+   
+
+}
+.header {
+    background-color: darkcyan;
+    border: darkgreen;
+    border-style: double;
+    border-radius: 15px;
+        z-index:1 ;
+        background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjW_-BcJHU-hkcXHFlBbnXmA3FRQ47jUx3iw&usqp=CAU) ;
+        height:290px ;
+}
+
+.background{
+    position:relative;
+    right: 50px;
+    top: 100px;
+    width: 10000px;
+    height: max-content;
+    background-color: blueviolet;
+    z-index: 2;
+
+}
+
+.pic   {
+
+width:200px ;
+height:250px ;
+image-rendering: auto;
+border-style: groove;
+border-radius: 5px;
+border-color: lightblue;
+position: relative;
+left: 10px;
+top: -160px;
+
+
+}
+
+
+
+
+.name {
+position:relative;
+left:250px;
+font-size: 300%;
+right: 20px;
+top: -120px;
+
+
+}
+
+.subheader {
+    position:absolute;
+    bottom: 100px;
+    right: 400px;
+    z-index: index 4; 
+
+
+}
+
+.AnchorTags {
+    width: 900px;
+    position:relative;
+    LEFT: 650px;
+    top: 0px;
+    font-size: 350%;
+    display: flex;
+    justify-content: space-evenly;
+   
+   
+}
+
+
+.AnchorTags li {
+    display: inline;
+    font-style: italic;
+    
+}
+
+.topbar {
+position: relative;
+right:0;
+left:0;
+bottom:300px;
+}
+
+
+
+.list2 {
+position: absolute;
+left: 250px;
+top: -80px;
+font-size: 200%;
+
+}
+
+
+/*.bar1 {
+background-color: darkblue; 
+position: relative;
+left: 280px;
+bottom: 174px;
+width: 20%;
+
+}
+*/
+.bar2{
+    position: absolute;
+background-color:darkblue;
+width: 1%;
+left: 200px;
+opacity: 80%;
+}
+
+
+.abm {
+    position: absolute;
+    left: 250px;
+    top: 300px;
+    max-width: 1300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: bolder;
+   font-size: 120%;
+}
+
+.haboutme {
+    font-size: 250%;
+
+
+}
+
+
+.wbar1{
+
+position: relative;
+width: 55%;
+top: 100px;
+left:490px;
+height: 500px;
+}
+
+.wp1 {
+    position: absolute;
+    height: 450px;
+    top: 550px;
+    right: 370px;
+    border-color: lawngreen;
+border-style: double;
+border-radius: 20px;
+}
+
+.wbar2{
+    
+    width:25% ;
+    position: relative;
+    left:490px;
+    top:130px;
+    }
+
+.wp2{
+position: relative;
+left: 558px;
+height: 150px;
+max-width: 50%;
+bottom: -452px;
+border-color: lawngreen;
+border-style: double;
+border-radius: 20px;
+}
+
+    
+.wbar3{
+  
+        position: relative;
+        width: 25%;
+        left: 1060px;
+        bottom: 32px;
+
+        }    
+
+.wp3    {
+position: absolute;
+left: 1060px;
+bottom: -67px;
+width: 357px;
+border-color: lawngreen;
+border-style: double;
+border-radius: 20px;
+}
+
+
+
+ .wbar4 {
+    background-color: lavender;
+            width:25%;
+        position:relative; 
+        left:490px;    
+        top:10px
+ }       
+
+ .wp4 {
+    position: absolute;
+    width: 450px;
+    top: 1300px;
+    left: 570px;
+    border-color: lawngreen;
+border-style: double;
+border-radius: 20px;
+}
+ 
+
+ .wp5 {
+    position: absolute;
+    left: 1060px;
+    top: 1300px;
+    width: 367px;
+    image-rendering: unset;
+    height: 183px;
+    border-color: lawngreen;
+    border-style: double;
+    border-radius: 20px;
+
+ }
+
+ .hwork {
+    font-size: 250%;
+    position: relative;
+    max-width: 300px;
+    top: 400px;
+ }
+
+
+ .hcon {
+    font-size: 250%;
+    max-width: 100px;
+
+ }
+
+ .colist {
+   
+    position:relative;
+    left:100px;
+    bottom: 50px;
+    font-size: 300%;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: blue; text-underline-position: inherit;
+
+ }
+
+ .conctact {
+position: relative;
+top: 500px;
+
+ }
+
+
+
+ @media screen and (max-width: 1000px) {
+.AnchorTags  {
+    left: 30px;
+    max-width: 500px;
+    top: 90px;
+}
+.name {
+    top: -220px;
+
+}
+.pic {
+top: -220px;
+
+}
+ 
+.list2 {
+    top: -200px;
+
+}
+
+
+
+
+}
